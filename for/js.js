@@ -14,8 +14,9 @@ for (var i = 200; i >= 0; i=i-1) {
 var p = document.getElementById('out3');
 for (var i = 0, d = 0; i <= 100; i++) {
 	d = d + i;
-	p.innerHTML += d;
+	p.innerHTML += d + " ";
 }
+
 
 // 4
 document.getElementById("Ok").onclick=f4;
@@ -44,6 +45,6 @@ for (var i = 1; i <= 50; i++) {
 
 // 7
 var p = document.getElementById('out7');
-for (var i = 1000; i < 2000; i = i++){
+for (var i = 1000; i < 2000; i++){
 	p.innerHTML += '&#' + i + ';';  
 }
